@@ -1,0 +1,79 @@
+# .gitignore for Disaster Prediction System
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# API keys and secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+data/
+*.csv
+*.xlsx
+*.xls
+*.json
+!requirements.txt
+!config.py
+
+# Models
+models/
+*.pkl
+*.h5
+*.model
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/
+
+.venv/
+.env.*
+*.pem
+*.p12

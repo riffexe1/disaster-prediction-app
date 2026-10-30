@@ -1,0 +1,28 @@
+# Requirements for AI-Based Disaster Prediction & Response System
+
+# Core Framework
+streamlit
+
+# Data Processing
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+
+# Visualization
+plotly
+matplotlib
+seaborn
+
+# Kaggle API
+kaggle
+
+# Groq AI (FREE & FAST)
+groq
+
+# Utilities
+python-dateutil
+pytz
